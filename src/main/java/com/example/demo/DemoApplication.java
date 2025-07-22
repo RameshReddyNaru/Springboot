@@ -8,7 +8,11 @@ public class DemoApplication {
 
 	@GetMapping("hello")
 	public String sayHello(){
-		return "hello World";
+		int a=10;
+		if(a>10)
+		return "age is greater than 10";
+		else
+			return "age is lesser than 10";
 	}
 
 
